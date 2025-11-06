@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="todo-container">
+    <h1>To Do List</h1>
+    <div class="input-div">
+        <input type="text" id="todo-input" class="inputboxtext" placeholder="Add a new Task.">
+        <button id="add-btn" onclick="increment()">Add Task.</button>
+    </div>
+    <div class="search-section">
+        <input type="text" id="search-input" placeholder="Search Task.">
+        <button onclick="increment()">Increment</button>
+    </div>
+    <ul id="todo-list"></ul>
+  </div>  
+  <script src="app.js"></script>
+
+    
+</body>
+</html>

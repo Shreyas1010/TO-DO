@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.todo-container{
+    background-color: rgba(176, 180, 181, 0.258);
+    padding: 20px;
+    width:350px;
+    border-radius: 10px;
+}
+.todo-container h1{
+    text-align: center;
+    
+}
+.input-div, .search-section{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+input{
+    padding:6px;
+}
+button{
+    padding: 8px 15px;
+    cursor: pointer;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 8px;
+    background:#fafafa;
+    border-radius: 5px;
+}
+
